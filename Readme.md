@@ -71,8 +71,8 @@ Using the API client, you can perform requests to the API.
 
 ```
 var queryOptions = new profanityfilterQueryOptions{
-  "text": "Today is so damn hot! Why the hell would anyone go outside?",
-  "mask": "*"
+  text: "Today is so damn hot! Why the hell would anyone go outside?",
+  mask: "*"
 };
 ```
 
@@ -83,7 +83,7 @@ var response = apiClient.Execute(queryOptions);
 if(response.error != null) {
 	Console.WriteLine(response.error);
 } else {
-    var jsonResponse = JsonConvert.SerializeObject(response.data, Newtonsoft.Json.Formatting.Indented);
+    var jsonResponse = JsonConvert.SerializeObject(response, Newtonsoft.Json.Formatting.Indented);
     Console.WriteLine(jsonResponse);
 }
 ```
