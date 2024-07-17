@@ -14,7 +14,7 @@
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <PackageProjectUrl>https://apiverve.com/?utm_source=nuget</PackageProjectUrl>
     <SignAssembly>False</SignAssembly>
-    <Description>Profanity Filter is a simple tool for filtering out profanity words from a text. It returns the text with the profanity words replaced by asterisks.</Description>
+    <Description>Profanity Filter is a simple tool for filtering out profanity words from a text. It returns the text with the profanity words replaced by placeholders.</Description>
     <RepositoryUrl>https://github.com/apiverve/profanityfilter.NET-API</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>profanity filter; profanity filter api; profanity filter tool; profanity filter software; profanity filter service</PackageTags>
