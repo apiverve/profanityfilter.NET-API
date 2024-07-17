@@ -19,7 +19,7 @@ public class data
     public bool trimmed { get; set; }
 
     [JsonProperty("profaneWords")]
-    public string[] profaneWords { get; set; }
+    public int profaneWords { get; set; }
 
 }
 
