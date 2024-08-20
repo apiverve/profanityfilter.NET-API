@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new profanityfilterQueryOptions {
+var queryOptions = new ProfanityFilterQueryOptions {
   text = "Today is so damn hot! Why the hell would anyone go outside?",
   mask = "*"
 };
@@ -100,7 +100,8 @@ if(response.error != null) {
     "mask": "*",
     "trimmed": false,
     "profaneWords": 2
-  }
+  },
+  "code": 200
 }
 ```
 
