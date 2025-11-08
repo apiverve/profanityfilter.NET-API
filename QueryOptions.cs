@@ -5,7 +5,7 @@ using System.Text;
 namespace APIVerve
 {
     public class ProfanityFilterQueryOptions {
-public string text { get; set; }
-public string mask { get; set; }
+public string Text { get; set; }
+public string Mask { get; set; }
 }
 }
